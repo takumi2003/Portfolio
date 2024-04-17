@@ -31,8 +31,8 @@ export default function Home() {
         <motion.div
           className="pt-16 pl-8 flex items-center gap-4 mb-10"
           initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.4, delay: 0.6 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.6, delay: 0.6 }}
         >
           <img src="/dog.png" className="w-80 h-80" />
           <div>
@@ -56,7 +56,12 @@ export default function Home() {
           </div>
         </motion.div>
 
-        <div className="bg-[#eae7e2] rounded-lg p-10">
+        <motion.div
+          className="rounded-lg p-10"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.6, delay: 0.6 }}
+        >
           <h1 className="text-6xl font-bold pt-16 mt-[-65px]">使用技術</h1>
           <div className="grid grid-cols-3 gap-5 ">
             <div className="pt-4 ml-0.5">
@@ -72,9 +77,17 @@ export default function Home() {
               <img src="https://placehold.jp/300x300.png" className="mt-2" />
             </div>
           </div>
-        </div>
+        </motion.div>
 
-        <h1 className="text-6xl font-bold pt-16 pl-9">GitHub</h1>
+        <motion.a
+          href="https://github.com/takumi2003"
+          className="text-6xl font-bold pt-16 pl-9"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.6, delay: 0.6 }}
+        >
+          GitHub
+        </motion.a>
       </div>
     </>
   );
