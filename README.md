@@ -1,2 +1,2 @@
-# tailwind_-framer-motion_-test
-tailwind cssとframer-motionを使ったアニメーションのあるWebサイトの練習
+# tailwind_framer-motion
+tailwind cssとframer-motionを使ったWebサイト
