@@ -6,6 +6,34 @@ import { motion } from "framer-motion";
 export default function Home() {
   return (
     <>
+      <ul className="sticky top-0 flex h-20 max-w-full items-center justify-center gap-5 bg-[#eae7e2]">
+        <li className="mr-6">
+          <a className="font-bold" href="#">
+            Greetings
+          </a>
+        </li>
+        <li className="mr-6">
+          <a className="font-bold" href="#">
+            SKILLS
+          </a>
+        </li>
+        <li className="mr-6">
+          <a className="font-bold" href="#">
+            WORKS
+          </a>
+        </li>
+        <li className="mr-6">
+          <a className="font-bold" href="#">
+            GitHub
+          </a>
+        </li>
+        <li className="mr-6">
+          <a className="font-bold" href="#">
+            CONTACT
+          </a>
+        </li>
+      </ul>
+
       <div className="ml-20 mt-10">
         <motion.div
           className="rounded-lg bg-[#eae7e2] p-10"
@@ -36,7 +64,7 @@ export default function Home() {
         >
           <img src="/dog.png" className="h-80 w-80" />
           <div>
-            <h2 className="text-6xl font-bold">ご挨拶</h2>
+            <h2 className="text-6xl font-bold">Greetings</h2>
             <p className="pl-1.5 pt-4 text-[19px]">
               はじめまして。本ページをご閲覧いただきありがとうございます。
               <br />
@@ -109,7 +137,7 @@ export default function Home() {
               </p>
             </div>
             <div className="ml-0.5 pr-5 pt-4">
-              <h2 className="text-4xl">Linebot</h2>
+              <h2 className="text-4xl">ShellScript</h2>
               <a href="https://github.com/takumi2003/lineTrashBot">
                 <img src="https://placehold.jp/300x300.png" className="mt-2" />
               </a>
