@@ -40,13 +40,13 @@ export default function Home() {
             <p className="pt-4 pl-1.5 text-[19px]">
               はじめまして。本ページをご閲覧いただきありがとうございます。
               <br />
-              26卒京都産業大学情報学部の北村拓海と申します。
+              26卒京都産業大学情報理工学部の北村拓海と申します。
               <br />
               Webフロントに興味があり、Reactを使って開発をしています。
               <br />
-              大学ではあまてくというサークルに所属しています。
+              大学ではあまてくというプログラムサークルに所属しています。
               <br />
-              また、現在ウェーブレット変換を使った画像処理のプロジェクトのPMをしています。
+              また、現在大学でおこなっているウェーブレット変換を使った画像処理のプロジェクトのPMをしています。
               <br />
               フロント以外にもバックエンドやインフラにも興味があります。
               <br />
@@ -63,20 +63,27 @@ export default function Home() {
           transition={{ duration: 0.6, delay: 0.6 }}
         >
           <h1 className="text-6xl font-bold pt-16 ml-[-2px] mt-[-65px] ">
-            SKILL
+            SKILLS
           </h1>
-          <div className="flex">
-            <div className="pt-4 ml-0.5 pr-5">
-              <h2 className="text-4xl">HTML/CSS</h2>
-              <img src="https://placehold.jp/300x300.png" className="mt-2" />
+          <div className="flex content-items mt-1.5">
+            <div className="mr-7">
+              <h2 className="text-4xl">Frontend</h2>
+              <p className="text-[19px]">HTML/CSS</p>
+              <p className="text-[19px]">JavaScript</p>
+              <p className="text-[19px]">TypeScript</p>
+              <p className="text-[19px]">React & Redux</p>
+              <p className="text-[19px]">Next.js</p>
             </div>
-            <div className="pt-4 ml-0.5 pr-5">
-              <h2 className="text-4xl">TypeScript</h2>
-              <img src="https://placehold.jp/300x300.png" className="mt-2" />
+            <div className="mr-7">
+              <h2 className="text-4xl">Tool</h2>
+              <p className="text-[19px] ml-1">VScode</p>
+              <p className="text-[19px] ml-1">Git</p>
             </div>
-            <div className="pt-4 ml-0.5 pr-5">
-              <h2 className="text-4xl">React</h2>
-              <img src="https://placehold.jp/300x300.png" className="mt-2" />
+            <div>
+              <h2 className="text-4xl">Others</h2>
+              <p className="text-[19px] ml-1">C</p>
+              <p className="text-[19px] ml-1">Java</p>
+              <p className="text-[19px] ml-1">Python</p>
             </div>
           </div>
         </motion.div>
@@ -90,28 +97,34 @@ export default function Home() {
           <h1 className="text-6xl font-bold pt-16 ml-[-2px] mt-[-65px]">
             WORKS
           </h1>
-          <div className="flex overflow-x-auto">
+          <div className="flex overflow-x-auto mt-[-3px]">
             <div className="pt-4 ml-0.5 pr-5">
+              <h2 className="text-4xl">Linebot</h2>
+              <a href="https://github.com/takumi2003/lineTrashBot">
+                <img src="https://placehold.jp/300x300.png" className="mt-2" />
+              </a>
+
+              <p className="pt-4 pl-[-1px] text-[13px]">
+                城陽市の明日のゴミの種類を教えてくれるLinebot
+              </p>
+            </div>
+            <div className="pt-4 ml-0.5 pr-10">
+              <h2 className="text-4xl">TypeScript</h2>
+              <img src="https://placehold.jp/300x300.png" className="mt-2" />
+            </div>
+            <div className="pt-4 ml-0.5 pr-10">
+              <h2 className="text-4xl">TypeScript</h2>
+              <img src="https://placehold.jp/300x300.png" className="mt-2" />
+            </div>
+            <div className="pt-4 ml-0.5 pr-10">
               <h2 className="text-4xl">HTML/CSS</h2>
               <img src="https://placehold.jp/300x300.png" className="mt-2" />
             </div>
-            <div className="pt-4 ml-0.5 pr-5">
+            <div className="pt-4 ml-0.5 pr-10">
               <h2 className="text-4xl">TypeScript</h2>
               <img src="https://placehold.jp/300x300.png" className="mt-2" />
             </div>
-            <div className="pt-4 ml-0.5 pr-5">
-              <h2 className="text-4xl">TypeScript</h2>
-              <img src="https://placehold.jp/300x300.png" className="mt-2" />
-            </div>
-            <div className="pt-4 ml-0.5 pr-5">
-              <h2 className="text-4xl">HTML/CSS</h2>
-              <img src="https://placehold.jp/300x300.png" className="mt-2" />
-            </div>
-            <div className="pt-4 ml-0.5 pr-5">
-              <h2 className="text-4xl">TypeScript</h2>
-              <img src="https://placehold.jp/300x300.png" className="mt-2" />
-            </div>
-            <div className="pt-4 ml-0.5 pr-5">
+            <div className="pt-4 ml-0.5 pr-10">
               <h2 className="text-4xl">TypeScript</h2>
               <img src="https://placehold.jp/300x300.png" className="mt-2" />
             </div>
@@ -139,7 +152,10 @@ export default function Home() {
           </h1>
           <p className="pt-3 pl-2.5 text-[19px]">
             Mail: takumi20030819@gmail.com <br />
-            twitter(現X): <a href="https://twitter.com/Ksu_kita">https://twitter.com/Ksu_kita</a>
+            twitter(現X):{" "}
+            <a href="https://twitter.com/Ksu_kita">
+              https://twitter.com/Ksu_kita
+            </a>
           </p>
         </motion.div>
       </div>
