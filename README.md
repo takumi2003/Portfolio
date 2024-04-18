@@ -1,2 +1,2 @@
-# tailwind_framer-motion
-tailwind cssとframer-motionを使ったWebサイト
+# Portfolio
+tailwind cssとframer-motionを使ったPortfolio
