@@ -2,35 +2,36 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 export default function Home() {
   return (
     <>
       <ul className="sticky top-0 flex h-20 max-w-full items-center justify-center gap-5 bg-[#eae7e2]">
         <li className="mr-6">
-          <a className="font-bold" href="#">
-            Greetings
-          </a>
+          <AnchorLink className="font-bold" offset="80" href="#greeting">
+            Greeting
+          </AnchorLink>
         </li>
         <li className="mr-6">
-          <a className="font-bold" href="#">
+          <AnchorLink className="font-bold" offset="80" href="#skills">
             SKILLS
-          </a>
+          </AnchorLink>
         </li>
         <li className="mr-6">
-          <a className="font-bold" href="#">
+          <AnchorLink className="font-bold" offset="80" href="#works">
             WORKS
-          </a>
+          </AnchorLink>
         </li>
         <li className="mr-6">
-          <a className="font-bold" href="#">
+          <AnchorLink className="font-bold" offset="80" href="#github">
             GitHub
-          </a>
+          </AnchorLink>
         </li>
         <li className="mr-6">
-          <a className="font-bold" href="#">
+          <AnchorLink className="font-bold" offset="80" href="#contact">
             CONTACT
-          </a>
+          </AnchorLink>
         </li>
       </ul>
 
@@ -64,7 +65,9 @@ export default function Home() {
         >
           <img src="/dog.png" className="h-80 w-80" />
           <div>
-            <h2 className="text-6xl font-bold">Greetings</h2>
+            <h2 className="text-6xl font-bold" id="greeting">
+              Greeting
+            </h2>
             <p className="pl-1.5 pt-4 text-[19px]">
               はじめまして。本ページをご閲覧いただきありがとうございます。
               <br />
@@ -90,7 +93,10 @@ export default function Home() {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.6 }}
         >
-          <h1 className="ml-[-2px] mt-[-65px] pt-16 text-6xl font-bold ">
+          <h1
+            className="ml-[-2px] mt-[-65px] pt-16 text-6xl font-bold"
+            id="skills"
+          >
             SKILLS
           </h1>
           <div className="content-items mt-1.5 flex">
@@ -122,7 +128,10 @@ export default function Home() {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.6 }}
         >
-          <h1 className="ml-[-2px] mt-[-65px] pt-16 text-6xl font-bold">
+          <h1
+            className="ml-[-2px] mt-[-65px] pt-16 text-6xl font-bold"
+            id="works"
+          >
             WORKS
           </h1>
           <div className="mt-[-3px] flex overflow-x-auto">
@@ -195,6 +204,7 @@ export default function Home() {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.6 }}
+          id="github"
         >
           GitHub
         </motion.a>
@@ -205,7 +215,10 @@ export default function Home() {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.6 }}
         >
-          <h1 className="ml-[5px] mt-[-65px] pt-16 text-6xl font-bold">
+          <h1
+            className="ml-[5px] mt-[-65px] pt-16 text-6xl font-bold"
+            id="contact"
+          >
             CONTACT
           </h1>
           <p className="pl-2.5 pt-3 text-[19px]">
