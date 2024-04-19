@@ -3,11 +3,12 @@
 import React from "react";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <>
-      <ul className="sticky top-0 flex h-20 max-w-full items-center justify-center gap-5 bg-[#eae7e2]">
+      <ul className="sticky top-0 z-10 flex h-20 max-w-full items-center justify-center gap-5 bg-[#eae7e2]">
         <li className="mr-6">
           <AnchorLink className="font-bold" offset="80" href="#greeting">
             Greeting
@@ -51,7 +52,7 @@ export default function Home() {
 
           <h1 className="text-9xl font-bold">
             Welcome to <br />
-            Takumi Kitamura's <br />
+            Takumi Kitamura&apos;s <br />
             Portfolio!
           </h1>
           <h2 className=" pl-0.5 text-3xl font-bold">Create by React</h2>
@@ -63,7 +64,7 @@ export default function Home() {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.6 }}
         >
-          <img src="/dog.png" className="h-80 w-80" />
+          <Image src="/dog.png" alt="Dog" width={330} height={330} />
           <div>
             <h2 className="text-6xl font-bold" id="greeting">
               Greeting
@@ -138,59 +139,14 @@ export default function Home() {
             <div className="ml-0.5 pr-5 pt-4">
               <h2 className="text-4xl">Linebot</h2>
               <a href="https://github.com/takumi2003/lineTrashBot">
-                <img src="https://placehold.jp/300x300.png" className="mt-2" />
+                <Image
+                  src="https://placehold.jp/300x300.png"
+                  alt=""
+                  width={150}
+                  height={150}
+                  className="mt-2"
+                />
               </a>
-
-              <p className="pl-[-1px] pt-4 text-[13px]">
-                城陽市の明日のゴミの種類を教えてくれるLinebot
-              </p>
-            </div>
-            <div className="ml-0.5 pr-5 pt-4">
-              <h2 className="text-4xl">ShellScript</h2>
-              <a href="https://github.com/takumi2003/lineTrashBot">
-                <img src="https://placehold.jp/300x300.png" className="mt-2" />
-              </a>
-
-              <p className="pl-[-1px] pt-4 text-[13px]">
-                城陽市の明日のゴミの種類を教えてくれるLinebot
-              </p>
-            </div>
-            <div className="ml-0.5 pr-5 pt-4">
-              <h2 className="text-4xl">Linebot</h2>
-              <a href="https://github.com/takumi2003/lineTrashBot">
-                <img src="https://placehold.jp/300x300.png" className="mt-2" />
-              </a>
-
-              <p className="pl-[-1px] pt-4 text-[13px]">
-                城陽市の明日のゴミの種類を教えてくれるLinebot
-              </p>
-            </div>
-            <div className="ml-0.5 pr-5 pt-4">
-              <h2 className="text-4xl">Linebot</h2>
-              <a href="https://github.com/takumi2003/lineTrashBot">
-                <img src="https://placehold.jp/300x300.png" className="mt-2" />
-              </a>
-
-              <p className="pl-[-1px] pt-4 text-[13px]">
-                城陽市の明日のゴミの種類を教えてくれるLinebot
-              </p>
-            </div>
-            <div className="ml-0.5 pr-5 pt-4">
-              <h2 className="text-4xl">Linebot</h2>
-              <a href="https://github.com/takumi2003/lineTrashBot">
-                <img src="https://placehold.jp/300x300.png" className="mt-2" />
-              </a>
-
-              <p className="pl-[-1px] pt-4 text-[13px]">
-                城陽市の明日のゴミの種類を教えてくれるLinebot
-              </p>
-            </div>
-            <div className="ml-0.5 pr-5 pt-4">
-              <h2 className="text-4xl">Linebot</h2>
-              <a href="https://github.com/takumi2003/lineTrashBot">
-                <img src="https://placehold.jp/300x300.png" className="mt-2" />
-              </a>
-
               <p className="pl-[-1px] pt-4 text-[13px]">
                 城陽市の明日のゴミの種類を教えてくれるLinebot
               </p>
