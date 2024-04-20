@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const Contact = () => {
+const Contact  = () => {
   return (
     <motion.div
       className="mb-10 pl-8 pt-16"
