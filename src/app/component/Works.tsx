@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const Works = () => {
+
+  //作成物の追加
   const works = [
     {
       title: "Linebot",
