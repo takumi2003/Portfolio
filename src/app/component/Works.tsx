@@ -21,7 +21,7 @@ const Works = () => {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.6, delay: 0.6 }}
     >
-      <h1 className="ml-[-2px] mt-[-65px] pt-16 text-6xl font-bold" id="works">
+      <h1 className="ml-[-2px] mt-[-65px] pt-16 text-6xl font-bold" id="WORKS">
         WORKS
       </h1>
       {works.map((work) => {

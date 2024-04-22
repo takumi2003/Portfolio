@@ -11,7 +11,7 @@ const Greeting = () => {
     >
       <Image src="/dog.png" alt="Dog" width={330} height={330} />
       <div>
-        <h2 className="text-6xl font-bold" id="greeting">
+        <h2 className="text-6xl font-bold" id="Greeting">
           Greeting
         </h2>
         <p className="pl-1.5 pt-4 text-[19px]">

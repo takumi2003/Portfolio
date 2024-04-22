@@ -8,7 +8,7 @@ const Contact  = () => {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.6, delay: 0.6 }}
     >
-      <h1 className="ml-[5px] mt-[-65px] pt-16 text-6xl font-bold" id="contact">
+      <h1 className="ml-[5px] mt-[-65px] pt-16 text-6xl font-bold" id="CONTACT">
         CONTACT
       </h1>
       <p className="pl-2.5 pt-3 text-[19px]">

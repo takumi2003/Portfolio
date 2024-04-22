@@ -8,7 +8,7 @@ const Skill = () => {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.6, delay: 0.6 }}
     >
-      <h1 className="ml-[-2px] mt-[-65px] pt-16 text-6xl font-bold" id="skills">
+      <h1 className="ml-[-2px] mt-[-65px] pt-16 text-6xl font-bold" id="SKILLS">
         SKILLS
       </h1>
       <div className="content-items mt-1.5 flex">
