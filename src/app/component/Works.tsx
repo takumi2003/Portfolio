@@ -26,7 +26,7 @@ const Works = () => {
       </h1>
       {works.map((work) => {
         return (
-          <div className="mt-[-3px] flex overflow-x-auto">
+          <div className="mt-[-3px] flex overflow-x-auto" key={`${work.title}`}>
             <div className="ml-0.5 pr-5 pt-4">
               <h2 className="text-4xl">{work.title}</h2>
               <a href={work.url}>
