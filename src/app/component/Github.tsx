@@ -8,7 +8,7 @@ const Github = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.6, delay: 0.6 }}
-      id="github"
+      id="GitHub"
     >
       GitHub
     </motion.a>
