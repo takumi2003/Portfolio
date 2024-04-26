@@ -1,4 +1,3 @@
-"use client";
 
 import React from "react";
 
@@ -7,7 +6,7 @@ import Top from "./component/Top";
 import Footer from "./component/Footer";
 import Greeting from "./component/Greeting";
 import Skill from "./component/Skill";
-import Works from "./component/Works";
+import Works from "./component/Work";
 import Github from "./component/Github";
 import Contact from "./component/Contact";
 
