@@ -2,13 +2,13 @@ import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/page.tsx",
+    "./app/_components/layouts/Footer/Footer.tsx",
+    "./features/**/**/**/*.{tsx}",
   ],
   theme: {
     fontFamily: {
-      Jersey:["Jersey, sans-serif"],
+      Jersey: ["Jersey, sans-serif"],
     },
     extend: {
       backgroundImage: {
