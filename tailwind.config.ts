@@ -3,8 +3,8 @@ import type { Config } from "tailwindcss";
 const config: Config = {
   content: [
     "./app/page.tsx",
-    "./app/_components/layouts/Footer/Footer.tsx",
-    "./features/**/**/**/*.{tsx}",
+    "./app/_components/layouts/**/*.tsx",
+    "./features/portfolio/components/**/*.tsx",
   ],
   theme: {
     fontFamily: {
