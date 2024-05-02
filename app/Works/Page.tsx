@@ -13,6 +13,20 @@ const Works = () => {
       alt: "",
       description: "城陽市の明日のゴミの種類を教えてくれるLinebot",
     },
+    {
+      title: "svn-challenge",
+      url: "https://github.com/takumi2003/svn-challenge",
+      img: "https://placehold.jp/300x300.png",
+      alt: "",
+      description: "avnのcommit、checkoutを体験できるShellScript",
+    },
+    {
+      title: "Portfolio",
+      url: "https://portfolio-ym1a.onrender.com",
+      img: "https://placehold.jp/300x300.png",
+      alt: "",
+      description: "ポートフォリオサイト",
+    },
   ];
 
   return (
@@ -27,7 +41,7 @@ const Works = () => {
       </h1>
       {works.map((work) => {
         return (
-          <div className="mt-[-3px] flex overflow-x-auto" key={`${work.title}`}>
+          <div className="mt-[-3px] flex" key={`${work.title}`}>
             <div className="ml-0.5 pr-5 pt-4">
               <h2 className="text-4xl">{work.title}</h2>
               <a href={work.url}>
